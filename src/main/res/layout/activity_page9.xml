@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="5"
+    android:background="@drawable/page7"
+    tools:context=".page9">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4.5"
+        android:gravity = "center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:text="Prince"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="-70dp"
+            android:textColor="#FFFFFF"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:text="Tisha"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="-70dp"
+            android:textColor="#FDFDFD"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:text="Princess"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_marginTop="250dp"
+            android:layout_marginRight="-100dp"
+            android:textColor="#FDFDFD"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:text="Tisha"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_marginRight="-100dp"
+            android:textColor="#FDFDFD"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        android:gravity = "center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/back_button"
+            android:layout_width="139dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="#FEFEFE"
+            android:fontFamily="serif"
+            android:onClick="goToPage1"
+            android:text="Back"
+            android:textColor="#96A9E3"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/next_button"
+            android:layout_width="139dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/back_button"
+            android:backgroundTint="#FEFEFE"
+            android:fontFamily="serif"
+            android:onClick="goToPage2"
+            android:text="Next"
+            android:textColor="#96A9E3"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+
+</LinearLayout>

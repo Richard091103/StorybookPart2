@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/page8"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="600dp"
+        android:backgroundTint="#96A9E3"
+        android:onClick="goToEnd"
+        android:text="FINISH"
+        android:textColor="#FFF"
+        android:textSize="15dp"/>
+
+</LinearLayout>
